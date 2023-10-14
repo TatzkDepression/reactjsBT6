@@ -6,6 +6,7 @@ import "./Style.css";
 function BookTicket() {
   return (
     <div className="bookingMovie">
+      <div className="overplay"></div>
       <div className="container">
         <div className="row">
           <div className="col-7">
