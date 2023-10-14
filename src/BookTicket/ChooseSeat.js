@@ -23,9 +23,9 @@ export default function ChooseSeat() {
       <table className="table">
         <thead>
           <tr>
-            <th>Number seat</th>
-            <th>Price</th>
-            <th>Function</th>
+            <th>Số Ghế</th>
+            <th>Giá</th>
+            <th>Tùy Chọn</th>
           </tr>
         </thead>
         <tbody>
@@ -38,14 +38,14 @@ export default function ChooseSeat() {
                   className="btn btn-danger"
                   onClick={() => handleDeleteSeat(item.soGhe)}
                 >
-                  Delete
+                  Xóa
                 </button>
               </td>
             </tr>
           ))}
           <tr>
-            <td colSpan={2}>Total</td>
-            <td>{totalPrice(ChooseSeat).toLocaleString()}VND</td>
+            <td colSpan={2}>Tổng Tiền</td>
+            <td>{totalPrice(ChooseSeat).toLocaleString()}</td>
           </tr>
         </tbody>
       </table>
