@@ -17,7 +17,7 @@ export default function ListSeat() {
         type: CHOOSE_CHAIR,
         payload: ChooseSeat.filter((soGhe) => soGhe !== seat),
       });
-      message.success("xóa thành công");
+      message.success("bỏ chọn thành công");
     } else {
       dispatch({
         type: CHOOSE_CHAIR,
