@@ -9,7 +9,9 @@ function BookTicket() {
       <div className="overplay"></div>
       <div className="container">
         <div className="row">
-          <div className="col-7">
+          <div className="col-7 screen-content text-center">
+            <h2 className="screen-content text-white">Đặt vé xem phim</h2>
+            <div className="screen m-auto">Màn hình</div>
             <ListSeat />
           </div>
           <div className="col-5">
